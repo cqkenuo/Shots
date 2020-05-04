@@ -20,45 +20,45 @@
 
 > 厂商管理
 
-![image-20200504140822051](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504140822051.png)
+![image-20200504140822051](image/image-20200504140822051.png)
 
 
 
 > 域名管理
 
-![image-20200504140947181](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504140947181.png)
+![image-20200504140947181](image/image-20200504140947181.png)
 
-![image-20200504142818037](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504142818037.png)
+![image-20200504142818037](image/image-20200504142818037.png)
 
 
 
 > 子域名管理
 
-![image-20200504141040843](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504141040843.png)
+![image-20200504141040843](image/image-20200504141040843.png)
 
 
 
 > 端口管理
 
-![image-20200504141121822](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504141121822.png)
+![image-20200504141121822](image/image-20200504141121822.png)
 
 
 
 > 存活WEB管理
 
-![image-20200504141312558](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504141312558.png)
+![image-20200504141312558](image/image-20200504141312558.png)
 
 
 
 > 日志管理
 
-![image-20200504141418625](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504141418625.png)
+![image-20200504141418625](image/image-20200504141418625.png)
 
 
 
 > 服务器状态监控
 
-![image-20200504141504885](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504141504885.png)
+![image-20200504141504885](image/image-20200504141504885.png)
 
 
 
@@ -74,7 +74,7 @@
 apt install php-fpm php-gd php-json php-mysql nginx mysql-client mysql-common mysql-server -y
 ```
 
-![image-20200504143217594](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504143217594.png)
+![image-20200504143217594](image/image-20200504143217594.png)
 
 
 
@@ -91,7 +91,7 @@ vi /etc/nginx/sites-enabled/default
 /etc/init.d/nginx restart
 ```
 
-![image-20200504145929087](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504145929087.png)
+![image-20200504145929087](image/image-20200504145929087.png)
 
 
 
@@ -121,9 +121,9 @@ chmod -R 777 /var/www/html/Shots-master/
 
 输入刚才MySQL的账号密码与数据库名
 
-![image-20200504150255939](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504150255939.png)
+![image-20200504150255939](image/image-20200504150255939.png)
 
-![image-20200504151341413](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504151341413.png)
+![image-20200504151341413](image/image-20200504151341413.png)
 
 #### 安装ShotsScan
 
@@ -148,19 +148,19 @@ python3 -m pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/si
 
 先创建一个用户
 
-![image-20200504155438579](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504155438579.png)
+![image-20200504155438579](image/image-20200504155438579.png)
 
 
 
 然后生成密钥
 
-![image-20200504155527281](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504155527281.png)
+![image-20200504155527281](image/image-20200504155527281.png)
 
 
 
 3. **配置config**
 
-![image-20200504155640203](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504155640203.png)
+![image-20200504155640203](image/image-20200504155640203.png)
 
 
 
@@ -177,7 +177,7 @@ nohup python3 alivescan.py > logs/alivescan.log &
 
 5. **查看模块状态**
 
-![image-20200504155932209](C:\Users\Broken_5\AppData\Roaming\Typora\typora-user-images\image-20200504155932209.png)
+![image-20200504155932209](image/image-20200504155932209.png)
 
 
 
